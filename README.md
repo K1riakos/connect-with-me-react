@@ -4,7 +4,7 @@
 
 ## 😎 Watch live
 
-[![<img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" />](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://connect-with-k1ri.netlify.app/)
+[![<img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" />](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://fluffy-sawine-568ec5.netlify.app)
 
 ## 🏠 Run Locally
 
