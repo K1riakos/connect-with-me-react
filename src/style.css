@@ -1,0 +1,78 @@
+.logo-container {
+	width: 176px;
+	margin-inline: auto;
+	margin-top: 80px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 40px;
+}
+.logo-wrapper {
+	width: 140px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.logo-wrapper > img {
+	width: 100%;
+}
+.logo-brand {
+	font-size: 24px;
+	color: var(--clr-grey);
+}
+
+.social-group {
+	padding-inline: 10px;
+	max-width: 505px;
+	margin-top: 100px;
+	margin-inline: auto;
+	display: flex;
+	gap: 35px;
+	flex-direction: column;
+}
+
+.social-container {
+	max-width: 100%;
+	min-height: 55px;
+	background-color: var(--clr-semiDark);
+	border-radius: 9px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+.social-container:hover {
+	transform: translateY(-3px);
+}
+.social-name {
+	font-size: 20px;
+}
+
+.watermark-container {
+	margin-top: 200px;
+	margin-bottom: 5px;
+	width: max-content;
+	margin-inline: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.watermark-container > a {
+	font-size: 13px;
+	font-weight: 700;
+	color: var(--clr-gitDark);
+	text-decoration: none;
+}
+
+@media all and (max-width: 420px) {
+	.logo-wrapper {
+		width: 120px;
+	}
+	.logo-brand {
+		font-size: 19px;
+	}
+
+	.social-name {
+		font-size: 18px;
+	}
+}
